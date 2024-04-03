@@ -1,0 +1,38 @@
+.main-container {
+    display: flex;
+    height: 100%;
+
+    .sidebar-container {
+        width: 50px;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        overflow: hidden;
+
+        td.column-date{
+            text-align: center;
+        }
+        th.column-date{
+            text-align: center;
+        }
+        td.allocation{
+            text-align: center;
+        }
+
+    }
+}
+
+.halfday {
+    color: var(--color-warning);
+}
+
+.fullday {
+    color: var(--color-success);
+}
+
+.leave {
+    color: var(--color-danger);
+}

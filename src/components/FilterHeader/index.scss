@@ -1,0 +1,22 @@
+.filter-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    height: 120px;
+    border-bottom: 1px solid var(--color-bg-hover);
+
+    .filter-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    select {
+        border: none;
+        width: 110px;
+    }
+
+
+}

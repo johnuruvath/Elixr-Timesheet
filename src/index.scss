@@ -1,0 +1,40 @@
+:root{
+  --color-primary: #161A45;
+  --color-secondary: #EB8A5D;
+  --color-link: #377EF9;
+  --color-success: #439E23;
+  --color-warning: #E1A815;
+  --color-danger: #DB3232;
+  --color-bg-hover: #F2F2F2;
+
+  .tooltip-inner{
+    background: var(--color-primary)!important;
+    color: white!important;
+    border-radius: 0!important;
+    padding: 4px 12px !important;
+  } 
+  
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+*{
+  
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+ 
+
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+
